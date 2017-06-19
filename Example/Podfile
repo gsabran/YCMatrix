@@ -1,0 +1,6 @@
+use_frameworks!
+target 'MMatrix_Tests' do
+  pod 'MMatrix', :path => '../'
+  
+  
+end
