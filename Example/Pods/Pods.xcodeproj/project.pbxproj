@@ -9,19 +9,16 @@
 /* Begin PBXBuildFile section */
 		24C1399F7B773EF8407443E6277F683F /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C84F6CB7F8D2508B0D8969EAFED83D /* ReplaceMe.m */; };
 		36E34BCC97163889447D088009F2D400 /* Pods-MMatrix_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECED7AC971345E9BF1B3D8F2AFB713E /* Pods-MMatrix_Tests-dummy.m */; };
-		6F5CE4EC1EF893DF00878218 /* HaltonInterface.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6F5CE4E61EF893DF00878218 /* HaltonInterface.mm */; };
 		6F5CE4ED1EF893DF00878218 /* Matrix+Map.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5CE4E71EF893DF00878218 /* Matrix+Map.m */; };
 		6F5CE4EE1EF893DF00878218 /* Matrix+Manipulate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5CE4E81EF893DF00878218 /* Matrix+Manipulate.m */; };
 		6F5CE4EF1EF893DF00878218 /* NSArray+Matrix.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5CE4E91EF893DF00878218 /* NSArray+Matrix.m */; };
 		6F5CE4F01EF893DF00878218 /* Matrix+Advanced.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5CE4EA1EF893DF00878218 /* Matrix+Advanced.m */; };
 		6F5CE4F11EF893DF00878218 /* Matrix.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5CE4EB1EF893DF00878218 /* Matrix.m */; };
 		6F5CE4FA1EF893F800878218 /* NSArray+Matrix.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F5CE4F21EF893F700878218 /* NSArray+Matrix.h */; };
-		6F5CE4FB1EF893F800878218 /* HaltonInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F5CE4F31EF893F700878218 /* HaltonInterface.h */; };
 		6F5CE4FC1EF893F800878218 /* Matrix+Advanced.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F5CE4F41EF893F800878218 /* Matrix+Advanced.h */; };
 		6F5CE4FD1EF893F800878218 /* YCMatrix.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F5CE4F51EF893F800878218 /* YCMatrix.h */; };
 		6F5CE4FE1EF893F800878218 /* soboldata.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F5CE4F61EF893F800878218 /* soboldata.h */; };
 		6F5CE4FF1EF893F800878218 /* Constants.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F5CE4F71EF893F800878218 /* Constants.h */; };
-		6F5CE5001EF893F800878218 /* halton_sampler.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F5CE4F81EF893F800878218 /* halton_sampler.h */; };
 		6F5CE5011EF893F800878218 /* Matrix+Manipulate.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F5CE4F91EF893F800878218 /* Matrix+Manipulate.h */; };
 		6F5CE5041EF894B900878218 /* Matrix.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F5CE5021EF894B800878218 /* Matrix.h */; };
 		6F5CE5051EF894B900878218 /* Matrix+Map.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F5CE5031EF894B800878218 /* Matrix+Map.h */; };
@@ -53,19 +50,16 @@
 		5CED457917670CCA1D502800B799AA51 /* Pods-MMatrix_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MMatrix_Tests-umbrella.h"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6D07E6E381A664B1381084B46D96B2BF /* MMatrix-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMatrix-prefix.pch"; sourceTree = "<group>"; };
-		6F5CE4E61EF893DF00878218 /* HaltonInterface.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HaltonInterface.mm; sourceTree = "<group>"; };
 		6F5CE4E71EF893DF00878218 /* Matrix+Map.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Matrix+Map.m"; sourceTree = "<group>"; };
 		6F5CE4E81EF893DF00878218 /* Matrix+Manipulate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Matrix+Manipulate.m"; sourceTree = "<group>"; };
 		6F5CE4E91EF893DF00878218 /* NSArray+Matrix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Matrix.m"; sourceTree = "<group>"; };
 		6F5CE4EA1EF893DF00878218 /* Matrix+Advanced.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Matrix+Advanced.m"; sourceTree = "<group>"; };
 		6F5CE4EB1EF893DF00878218 /* Matrix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Matrix.m; sourceTree = "<group>"; };
 		6F5CE4F21EF893F700878218 /* NSArray+Matrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+Matrix.h"; path = "../../../YCMatrix/YCMatrix/NSArray+Matrix.h"; sourceTree = "<group>"; };
-		6F5CE4F31EF893F700878218 /* HaltonInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HaltonInterface.h; path = ../../../YCMatrix/YCMatrix/HaltonInterface.h; sourceTree = "<group>"; };
 		6F5CE4F41EF893F800878218 /* Matrix+Advanced.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Matrix+Advanced.h"; path = "../../../YCMatrix/YCMatrix/Matrix+Advanced.h"; sourceTree = "<group>"; };
 		6F5CE4F51EF893F800878218 /* YCMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YCMatrix.h; path = ../../../YCMatrix/YCMatrix/YCMatrix.h; sourceTree = "<group>"; };
 		6F5CE4F61EF893F800878218 /* soboldata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = soboldata.h; path = ../../../YCMatrix/YCMatrix/soboldata.h; sourceTree = "<group>"; };
 		6F5CE4F71EF893F800878218 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = ../../../YCMatrix/YCMatrix/Constants.h; sourceTree = "<group>"; };
-		6F5CE4F81EF893F800878218 /* halton_sampler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = halton_sampler.h; path = ../../../YCMatrix/YCMatrix/halton_sampler.h; sourceTree = "<group>"; };
 		6F5CE4F91EF893F800878218 /* Matrix+Manipulate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Matrix+Manipulate.h"; path = "../../../YCMatrix/YCMatrix/Matrix+Manipulate.h"; sourceTree = "<group>"; };
 		6F5CE5021EF894B800878218 /* Matrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Matrix.h; path = ../../../YCMatrix/YCMatrix/Matrix.h; sourceTree = "<group>"; };
 		6F5CE5031EF894B800878218 /* Matrix+Map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Matrix+Map.h"; path = "../../../YCMatrix/YCMatrix/Matrix+Map.h"; sourceTree = "<group>"; };
@@ -208,8 +202,6 @@
 			isa = PBXGroup;
 			children = (
 				6F5CE4F71EF893F800878218 /* Constants.h */,
-				6F5CE4F81EF893F800878218 /* halton_sampler.h */,
-				6F5CE4F31EF893F700878218 /* HaltonInterface.h */,
 				6F5CE4F41EF893F800878218 /* Matrix+Advanced.h */,
 				6F5CE4F91EF893F800878218 /* Matrix+Manipulate.h */,
 				6F5CE4F21EF893F700878218 /* NSArray+Matrix.h */,
@@ -217,7 +209,6 @@
 				6F5CE5021EF894B800878218 /* Matrix.h */,
 				6F5CE5031EF894B800878218 /* Matrix+Map.h */,
 				6F5CE4F51EF893F800878218 /* YCMatrix.h */,
-				6F5CE4E61EF893DF00878218 /* HaltonInterface.mm */,
 				6F5CE4EB1EF893DF00878218 /* Matrix.m */,
 				6F5CE4EA1EF893DF00878218 /* Matrix+Advanced.m */,
 				6F5CE4E81EF893DF00878218 /* Matrix+Manipulate.m */,
@@ -240,10 +231,8 @@
 				6F5CE4FF1EF893F800878218 /* Constants.h in Headers */,
 				6F5CE4FC1EF893F800878218 /* Matrix+Advanced.h in Headers */,
 				6F5CE4FE1EF893F800878218 /* soboldata.h in Headers */,
-				6F5CE4FB1EF893F800878218 /* HaltonInterface.h in Headers */,
 				CCD900F120403BC0145E6A115A41DD56 /* MMatrix-umbrella.h in Headers */,
 				6F5CE4FD1EF893F800878218 /* YCMatrix.h in Headers */,
-				6F5CE5001EF893F800878218 /* halton_sampler.h in Headers */,
 				6F5CE5051EF894B900878218 /* Matrix+Map.h in Headers */,
 				6F5CE5011EF893F800878218 /* Matrix+Manipulate.h in Headers */,
 			);
@@ -336,7 +325,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F5CE4F11EF893DF00878218 /* Matrix.m in Sources */,
-				6F5CE4EC1EF893DF00878218 /* HaltonInterface.mm in Sources */,
 				6F5CE4ED1EF893DF00878218 /* Matrix+Map.m in Sources */,
 				FF0D0ADC6F055DFDF3353846276FE555 /* MMatrix-dummy.m in Sources */,
 				6F5CE4EF1EF893DF00878218 /* NSArray+Matrix.m in Sources */,
