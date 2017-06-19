@@ -522,7 +522,6 @@
 {
     NSAssert(other.rows + 1 <= self.rows && other.columns + j <= self.columns,
              @"Matrix out of bounds");
-    int ma = self.rows;
     int na = self.columns;
     int mo = other.rows;
     int no = other.columns;

@@ -458,7 +458,7 @@ typedef enum refMode { YCMWeak, YCMStrong, YCMCopy } refMode;
  Compares the receiver with a matrix, using the specified numerical tolerance
  
  @param aMatrix The other matrix
- @param precision The numerical tolerance used for comparison
+ @param tolerance The numerical tolerance used for comparison
  
  @return Boolean showing whether the matrix objects are equal or not.
  */

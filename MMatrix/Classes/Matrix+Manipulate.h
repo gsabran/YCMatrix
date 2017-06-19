@@ -46,7 +46,7 @@
 /**
  Initializes and returns a new matrix from an NSArray of column matrices.
  
- @param rows The NSArray containing column matrix objects.
+ @param columns The NSArray containing column matrix objects.
  
  @return A new matrix resulting from merging the column.
  */
@@ -55,14 +55,14 @@
 /**
  Copy all the values of the matrix passed as the argument, to the receiver.
  
- @param matrix The matrix to copy the values from.
+ @param aMatrix The matrix to copy the values from.
  */
 - (void)copyValuesFrom:(Matrix *)aMatrix;
 
 /**
  Returns a row matrix with the contents of row |rowNumber|.
  
- @param rowNumber The index of the row to copy.
+ @param rowIndex The index of the row to copy.
  
  @return The row matrix.
  */
@@ -126,7 +126,7 @@
 /**
  Partitions the receiver into row chunks of size s.
  
- @param s The size of each row chunk.
+ @param size The size of each row chunk.
  
  @return The NSArray of matrices resulting from the partitioning.
  */
@@ -177,7 +177,7 @@
 /**
  Partitions the receiver into column chunks of size s.
  
- @param s The size of each column chunk.
+ @param size The size of each column chunk.
  
  @return The NSArray of matrices resulting from the partitioning.
  */

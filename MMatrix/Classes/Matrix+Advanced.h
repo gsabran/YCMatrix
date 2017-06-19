@@ -143,21 +143,6 @@
                                   count:(int)count;
 
 /**
- Returns a matrix of quasi-random values according to the Halton sequence.
- The parameter matrices should have the same dimensions, and the resulting 
- matrix will also be of the same dimensions as the parameters.
- 
- @param lower Matrix containing values for the lower bounds.
- @param upper Matrix containing values for the upper bounds.
- @param count The number of points to sample.
- 
- @return A matrix of the values corresponding to the Halton sequence.
- */
-+ (instancetype)haltonSequenceWithLowerBound:(Matrix *)lower
-                                  upperBound:(Matrix *)upper
-                                       count:(int)count;
-
-/**
  Returns the pseudo-inverse of the receiver.
  The calculation is performed using Singular Value Decomposition.
  
