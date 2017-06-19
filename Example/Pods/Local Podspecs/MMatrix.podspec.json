@@ -1,0 +1,22 @@
+{
+  "name": "MMatrix",
+  "version": "0.1.0",
+  "summary": "A short description of MMatrix.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/sabranguillaume@gmail.com/MMatrix",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "sabranguillaume@gmail.com": "sabranguillaume@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/sabranguillaume@gmail.com/MMatrix.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MMatrix/Classes/**/*"
+}

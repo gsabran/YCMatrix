@@ -1,0 +1,16 @@
+PODS:
+  - MMatrix (0.1.0)
+
+DEPENDENCIES:
+  - MMatrix (from `../`)
+
+EXTERNAL SOURCES:
+  MMatrix:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MMatrix: 296822a4ea04ae9277b78d7b84e4bb6ca014bbb2
+
+PODFILE CHECKSUM: 344817581c56d362418e01ffd2b825ec82c68505
+
+COCOAPODS: 1.2.1

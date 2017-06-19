@@ -1,0 +1,6 @@
+framework module MMatrix {
+  umbrella header "MMatrix-umbrella.h"
+
+  export *
+  module * { export * }
+}
